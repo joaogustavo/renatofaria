@@ -1,0 +1,491 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* reset da modelo */
+.navegacao ul li .menu-home {
+	color: #d4d828;
+	pointer-events: none;
+}
+.menu-movel li .menu-home {
+	background: #d4d828;
+	color: #fff;
+	pointer-events: none;
+}
+.corpo, .conteudos {
+	margin: 0;
+	padding: 0;
+	max-width: 2000px;
+}
+.titulos, .conteudos-navegacao {
+	display: none;
+	visibility: hidden;
+}
+/* banners */
+.banners {
+	display: block;
+}
+/* casos clinicos */
+.casosclinicos-container-geral {
+	background: url(../img/home-casos-fundo.png) no-repeat right top;
+	padding-top: 51px;
+	position: relative;
+	width: 100%;
+}
+@media screen and (max-width: 1999px) {
+.casosclinicos-container-geral {
+	background: url(../img/home-casos-fundo.png) no-repeat center top;
+}
+}
+.casosclinicos-container {
+	margin: 0 auto;
+	max-width: 1140px;
+	padding: 0 2%;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+.laudo-chamada {
+	background: url(../img/icone-laudo.png) no-repeat left top;
+	display: block;
+	height: 102px;
+	position: absolute;
+	right: 18%;
+	top: -122px;
+	width: 286px;
+	z-index: 500;
+}
+.laudo-chamada a {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.casosclinicos-cabecalho {
+	display: inline-block;
+	float: right;
+	margin-right: 140px;
+	margin-top: 28px;
+	max-width: 150px;
+	padding-top: 20px;
+	text-align: right;
+	text-shadow: 0px 1px 1px rgba(125, 137, 134, 0.208);
+	text-transform: uppercase;
+	width: 100%;
+}
+.casosclinicos-cabecalho h2 {
+	color: #2567aa;
+	font-family: 'uni_sans_bold_italicitalic';
+	font-size: 5rem;
+}
+.casosclinicos-cabecalho h2 span {
+	color: #1e3845;
+	display: block;
+	font-family: 'uni_sans_bookregular';
+	font-size: 2.5rem;
+	margin-left: auto;
+	max-width: 80px;
+	padding-bottom: 10px;
+	position: relative;
+	text-shadow: none;
+	text-transform: none;
+}
+.casosclinicos-cabecalho h2 span:after {
+	background: #f16522;
+	bottom: 0;
+	content: '';
+	display: block;
+	height: 5px;
+	position: absolute;
+	right: 0;
+	width: 60%;
+}
+.casosclinicos {
+	display: inline-block;
+	margin: 0 2%;
+	max-width: 732px;
+	width: 100%;
+}
+.casosclinicos div:nth-child(2) {
+	margin: 15px 0 !important;
+}
+.casoclinico {
+	display: block;
+	width: 100%;
+}
+.casoclinico a {
+	background: #f6f5f5;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	color: #7d7d7d;
+	display: block;
+	font-family: 'myriad_proregular';
+	font-size: 1.2rem;
+	line-height: 2.2rem;
+	padding: 12px;
+	width: 100%;
+}
+.casosclinico-icone {
+	background: url(../img/icone-noticia.png) no-repeat center center;
+	border-right: solid 1px #c9c9c9;
+	display: inline-block;
+	float: left;
+	height: 69px;
+	margin-right: 17px;
+	width: 69px;
+}
+.casosclinico-titulo {
+	color: #1f9a94;
+	display: block;
+	font-family: 'myriad_prosemibold';
+	font-size: 1.4rem;
+}
+.casosclinicos-link {
+	background: #c6e7f0;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	color: #1e3845;
+	display: block;
+	float: right;
+	font-family: 'uni_sans_bookregular';
+	font-size: 1.8rem;
+	font-weight: bold;
+	margin: 15px 0;
+	padding: 2px 10px;
+	text-align: center;
+}
+.casosclinicos-link:hover {
+	background: #1e3845;
+	color: #c6e7f0;
+	text-decoration: none;
+}
+/* saiba mais */
+.saibamais-container-fundo {
+	background: url(../img/home-saibamais-fundo.jpg) no-repeat center top;
+	border-top: solid 1px #f26522;
+	padding-bottom: 60px;
+	padding-top: 30px;
+	position: relative;
+	width: 100%;
+}
+@media screen and (max-width: 1999px) {
+.saibamais-container-fundo {
+	background: url(../img/home-saibamais-fundo.jpg) no-repeat left top;
+}
+}
+.saibamais-container-geral {
+	margin: 0 auto;
+	max-width: 1170px;
+	padding: 0 2%;
+	width: 100%;
+}
+.saibamais-cabecalho {
+	color: #2567aa;
+	display: inline-block;
+	float: left;
+	font-family: 'uni_sans_bold_italicitalic';
+	font-size: 5rem;
+	margin-right: 2%;
+	max-width: 200px;
+	padding-top: 20px;
+	text-align: right;
+	text-shadow: 0px 1px 1px rgba(125, 137, 134, 0.208);
+	text-transform: uppercase;
+	width: 100%;
+}
+.saibamais-cabecalho span {
+	color: #1e3845;
+	display: block;
+	font-family: 'uni_sans_bookregular';
+	font-size: 2.5rem;
+	margin-left: auto;
+	margin-top: 8px;
+	max-width: 50px;
+	padding-bottom: 10px;
+	position: relative;
+	text-shadow: none;
+	text-transform: none;
+}
+.saibamais-cabecalho span:after {
+	background: #f16522;
+	bottom: 0;
+	content: '';
+	display: block;
+	height: 5px;
+	left: 8%;
+	position: absolute;
+	width: 85%;
+}
+.saibamais-link {
+	color: #1e3845;
+	display: block;
+	font-family: 'uni_sans_bookregular';
+	font-size: 1.5rem;
+	margin-left: auto;
+	margin-top: 215px;
+	max-width: 58px;
+	padding-top: 43px;
+	position: relative;
+	text-align: center;
+	text-shadow: none;
+	text-transform: none;
+	width: 100%;
+}
+.saibamais-link:before {
+	background: #f26522;
+	border-radius: 80%;
+	-webkit-border-radius: 80%;
+	-moz-border-radius: 80%;
+	color: #ffffff;
+	content: '+';
+	display: block;
+	font-family: 'hp_simplifiedregular';
+	font-size: 7rem;
+	height: 45px;
+	left: 6%;
+	line-height: 5.5rem;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 45px;
+}
+.saibamais-container {
+	display: inline-block;
+	margin-top: 33px;
+	max-width: 878px;
+	width: 100%;
+}
+.saibamais-container div:nth-child(2) {
+	margin: 0 2%;
+}
+.saibamais {
+	background: #ffffff;
+	box-shadow: 0px 1px 1px 0px rgba(125, 137, 134, 0.302);
+	display: inline-block;
+	max-width: 264px;
+	position: relative;
+	width: 100%;
+}
+.saibamais a:hover {
+	text-decoration: none;
+}
+.saibamais:before {
+	border-bottom: 15px solid transparent;
+	border-right: 18px solid #ffffff;
+	border-top: 15px solid transparent;
+	bottom: -14px;
+	content: '';
+	height: 0;
+	position: absolute;
+	right: 25px;
+	width: 0;
+	z-index: 3;
+}
+.saibamais:after {
+	border-bottom: 15px solid transparent;
+	border-right: 18px solid rgba(125, 137, 134, 0.302);
+	border-top: 15px solid transparent;
+	bottom: -15px;
+	content: '';
+	height: 0;
+	position: absolute;
+	right: 26px;
+	width: 0;
+	z-index: 2;
+}
+.saibamais-img {
+	display: block;
+	margin-bottom: 3px;
+	max-width: 264px;
+	width: 100%;
+}
+.saibamais-data {
+	border-top: solid 4px #f26522;
+	color: #7d7d7d;
+	display: block;
+	font-family: 'latoblack';
+	font-size: 1.5rem;
+	margin: 0 4px;
+	max-width: 256px;
+	padding-left: 7px;
+	width: 100%;
+}
+.saibamais div {
+	color: #7d7d7d;
+	display: block;
+	font-family: 'myriad_proregular';
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	margin: 0 auto;
+	max-width: 240px;
+	padding-bottom: 8px;
+	width: 100%;
+}
+@media screen and (max-width: 1560px) {
+.saibamais-container-fundo {
+	background: url(../img/home-saibamais-fundo.jpg) no-repeat -370px top;
+}
+}
+@media screen and (max-width: 1520px) {
+.laudo-chamada {
+	background-size: contain;
+	left: 4%;
+	right: auto;
+	top: -80px;
+	width: 180px;
+}
+}
+@media screen and (max-width: 1162px) {
+.saibamais-cabecalho {
+	max-width: 150px;
+}
+}
+@media screen and (max-width: 1125px) {
+.casosclinicos-container-geral {
+	padding-top: 0;
+}
+.laudo-chamada {
+	left: auto;
+	right: 4%;
+	top: -25px;
+}
+.casosclinicos-cabecalho {
+	display: block;
+	margin: 0;
+	max-width: 1125px;
+	padding: 0;
+	padding-top: 7px;
+	text-align: left;
+	width: 100%;
+}
+.casosclinicos-cabecalho h2 {
+	font-size: 3rem;
+}
+.casosclinicos-cabecalho h2 span {
+	display: inline-block;
+	float: none;
+	margin: 0;
+}
+}
+@media screen and (max-width: 1109px) {
+.saibamais-container-fundo {
+	padding-bottom: 25px;
+}
+.saibamais-cabecalho {
+	display: block;
+	float: none;
+	font-size: 3rem;
+	margin: 0;
+	max-width: 1099px;
+	padding: 0;
+	text-align: left;
+}
+.saibamais-cabecalho span {
+	display: inline-block;
+	float: none;
+	margin: 0;
+}
+.saibamais-link {
+	float: right;
+	margin: 0;
+	padding-top: 20px;
+}
+.saibamais-link:before {
+	font-size: 3rem;
+	height: 25px;
+	left: 25%;
+	line-height: 3.2rem;
+	width: 25px;
+}
+.saibamais-container {
+	margin-top: 15px;
+	max-width: 1099px;
+	text-align: center;
+}
+.saibamais {
+	display: inline-block;
+	margin: 0 2% !important;
+}
+}
+@media screen and (max-width: 962px) {
+.laudo-chamada {
+	right: 4%;
+	top: 8px;
+}
+.saibamais-container-fundo {
+	background-color: #f8f8f8;
+	background-position: -370px bottom;
+}
+.saibamais-container {
+	margin-top: 0;
+}
+.saibamais {
+	margin: 15px 2% !important;
+}
+}
+@media screen and (max-width: 793px) {
+.casosclinicos {
+	margin: 0;
+}
+}
+@media screen and (max-width: 767px) {
+.saibamais-container-fundo, .casosclinicos-container-geral {
+	background-image: none;
+}
+.casosclinicos-container-geral {
+	margin-top: 50px;
+	padding-top: 0;
+}
+.laudo-chamada {
+	display: none;
+	visibility: hidden;
+}
+.casosclinicos-cabecalho {
+	text-align: left;
+}
+.casosclinicos {
+	margin: 0;
+}
+.casosclinicos-link {
+	float: none;
+	margin: 15px auto;
+	max-width: 130px;
+}
+.saibamais-container-fundo {
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.saibamais-cabecalho {
+	display: block;
+	float: none;
+	font-size: 3rem;
+	margin: 0;
+	max-width: 767px;
+	padding: 0;
+	text-align: left;
+}
+.saibamais-cabecalho span {
+	display: inline-block;
+	float: none;
+	margin: 0;
+}
+.saibamais-link {
+	float: right;
+	margin: 0;
+	padding-top: 20px;
+}
+.saibamais-link:before {
+	font-size: 3rem;
+	height: 25px;
+	left: 25%;
+	line-height: 3.2rem;
+	width: 25px;
+}
+.saibamais-container {
+	margin-top: 0;
+}
+.saibamais {
+	display: block;
+	margin: 28px auto !important;
+}
+}
